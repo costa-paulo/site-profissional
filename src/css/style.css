@@ -1,0 +1,482 @@
+html {
+   font-size: 62, 5%;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+   background-color: var(--neutral-white);
+}
+
+body h2 {
+   text-align: center;
+   font-size: 35px;
+   font-weight: 600;
+   color: var(--dark-blue);
+}
+
+.header {
+   width: 100%;
+   background-color: var(--neutral-white);
+}
+
+.header .header-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.header .header-container a {
+   margin: 15px 0;
+}
+
+.apresentacao {
+   width: 100%;
+   margin-top: 1px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-image: url(../images/2-apresentacao/apresentacao-fundo.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: var(--neutral-white);
+}
+
+.apresentacao .apresentacao-info {
+   max-width: 700px;
+   padding: 0 40px;
+}
+
+.apresentacao .apresentacao-info h1 {
+   font-size: 50px;
+   font-weight: 600;
+}
+
+.apresentacao .apresentacao-info h2 {
+   text-align: left;
+   font-size: 30px;
+   margin-top: 10px;
+   color: var(--neutral-white);
+}
+
+.apresentacao .apresentacao-info p {
+   font-size: 20px;
+   font-weight: 400;
+   margin-top: 30px;
+}
+
+.apresentacao .apresentacao-imagem {
+   text-align: center;
+   padding-top: 10px;
+   align-self: flex-end;
+}
+
+.apresentacao .apresentacao-imagem img {
+   width: 90%;
+   transform: translateY(1%);
+}
+
+.tratamentos {
+   max-width: 2000px;
+   padding-top: 30px;
+}
+
+.tratamentos .tratamentos-container {
+   margin-top: 40px;
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.tratamentos .tratamentos-container .tratamento {
+   text-align: center;
+   max-width: 300px;
+   height: 460px;
+   padding: 25px;
+   margin: 40px 20px;
+   background-color: var(--light-blue);
+   border-radius: 20px;
+   box-shadow: 10px 10px 30px -15px var(--dark-blue);
+}
+
+.tratamentos .tratamentos-container .tratamento .tratamento-conteudo {
+   transform: translateY(-20%);
+}
+
+.tratamentos .tratamentos-container .tratamento h3 {
+   font-weight: 400;
+   font-size: 20px;
+   margin: 10px 0;
+}
+
+.tratamentos .tratamentos-container .tratamento p {
+   font-weight: 400;
+   font-size: 14px;
+   text-align: justify;
+}
+
+.tratamentos .tratamentos-container .tratamento:last-child ul {
+   padding: 0 20px;
+}
+
+.tratamentos .tratamentos-container .tratamento:last-child li {
+   font-weight: 400;
+   font-size: 14px;
+   text-align: left;
+   line-height: 25px;
+   list-style: circle;
+}
+
+.exterior {
+   margin: 40px 50px 0;
+   padding: 12px;
+   border: dashed 3px var(--dark-blue);
+   border-radius: 50px;
+}
+
+.exterior .exterior-conteudo {
+   padding: 30px;
+   background-color: var(--dark-blue);
+   color: var(--white);
+   border-radius: 50px;
+}
+
+.exterior .exterior-conteudo h2 {
+   color: var(--white);
+}
+
+.exterior .exterior-conteudo .exterior-container {
+   padding: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.exterior .exterior-conteudo .exterior-container .exterior-texto {
+   text-align: justify;
+   margin-right: 40px;
+   max-width: 700px;
+}
+
+.exterior .exterior-conteudo .exterior-container picture{
+   text-align: center;
+   min-width: 250px;
+}
+
+.tcc {
+   margin: 40px 62px 0;
+   background-color: var(--light-blue);
+   text-align: center;
+   max-width: 1820px;
+}
+
+.tcc p {
+   font-size: 15px;
+   font-weight: 400;
+}
+
+.tcc .tcc-apresentacao {
+   padding: 30px 50px;
+   text-align: center;
+}
+
+.tcc .tcc-apresentacao img {
+   margin: 30px 0 10px;
+}
+
+.tcc .tcc-caracteristicas {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.tcc .tcc-caracteristica {
+   display: flex;
+   margin: 20px 30px;
+   text-align: justify;
+}
+
+.tcc .tcc-caracteristica .tcc-imagem:nth-child(odd) {
+   display: flex;
+   align-items: center;
+   transform: translateX(20%);
+}
+
+.tcc .tcc-caracteristica .tcc-imagem:nth-child(even) {
+   display: flex;
+   align-items: center;
+   transform: translateX(-20%);
+}
+
+.tcc .tcc-caracteristica .tcc-texto {
+   padding: 40px;
+   max-width: 350px;
+   background-color: var(--neutral-white);
+   border-radius: 50px;
+}
+
+.tcc .tcc-caracteristica .tcc-texto p {
+   font-size: 14px;
+}
+
+.tcc .tcc-caracteristica .tcc-texto h3 {
+   font-weight: 600;
+   font-size: 20px;
+   margin: 0 0 15px;
+}
+
+.online {
+   width: 100%;
+   padding: 30px 0px;
+   background-image: url(../images/6-online/online-fundo.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.online .online-blocks{
+   display: none;
+}
+
+.online .online-conteudo {
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+   gap: 40px;
+}
+
+.online .online-conteudo ul {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 30px;
+   gap: 30px;
+   background-color: var(--intense-blue);
+   color: var(--white);
+   max-width: 400px;
+   border-radius: 50px;
+}
+
+.online .online-conteudo li {
+   font-weight: 400;
+}
+
+.online .online-conteudo img {
+   border-radius: 50px;
+   border: 15px solid var(--dark-blue);
+}
+
+.psicologo {
+   padding: 30px 0;
+}
+
+.psicologo .psicologo-conteudo {
+   display: flex;
+   justify-content: center;
+   margin: 40px 10px 0;
+   gap: 40px;
+}
+
+.psicologo .psicologo-conteudo .psicologo-texto {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   text-align: justify;
+   max-width: 500px;
+   padding: 20px;
+}
+
+.psicologo .psicologo-conteudo .psicologo-texto p {
+   font-weight: 400;
+}
+
+.psicologo .psicologo-conteudo .psicologo-imagem {
+   text-align: center;
+   align-self: center;
+}
+
+.psicologo .psicologo-conteudo .psicologo-imagem img {
+   width: 85%;
+   border-radius: 50%;
+   border: 15px solid var(--intense-blue);
+}
+
+.duvidas {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px 0 70px 0;
+   background-image: url(../images/8-duvidas/duvidas-fundo.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.duvidas .duvidas-conteudo {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 30px 40px;
+   width: 655px;
+   min-height: 347px;
+   box-shadow: 0 27px 49px -25px rgba(0, 0, 0, 0.3);
+   border-radius: 30px;
+   background-color: var(--light-blue);
+}
+
+.duvidas .duvidas-conteudo .perguntas-respostas {
+   margin-top: 20px;
+   width: 100%;
+}
+
+.duvidas .duvidas-conteudo .perguntas-respostas .item {
+   cursor: pointer;
+   background-image: url(../images/8-duvidas/seta-fechada.png);
+   background-repeat: no-repeat;
+   background-position: top 8px right 0;
+   background-size: 12px;
+   border-bottom: 1px solid var(--light-gray);
+   margin: 10px 0;
+   transition: 0.5s;
+}
+
+.duvidas .duvidas-conteudo .perguntas-respostas .item:last-child {
+   border-bottom: none;
+}
+
+.duvidas .duvidas-conteudo .perguntas-respostas .item .pergunta {
+   font-size: 18px;
+   font-weight: 400;
+   width: 90%;
+   padding-bottom: 15px;
+   transition: 0.2s ease;
+}
+
+.duvidas .duvidas-conteudo .perguntas-respostas .item .pergunta:hover {
+   color: var(--medium-blue);
+}
+
+.duvidas .duvidas-conteudo .perguntas-respostas .item .resposta {
+   font-size: 15px;
+   padding-bottom: 15px;
+   display: none;
+}
+
+.duvidas .duvidas-conteudo .perguntas-respostas .item:nth-child(4) .resposta ul {
+   margin: 10px 0 0 20px;
+}
+
+.duvidas .duvidas-conteudo .perguntas-respostas .item:nth-child(4) .resposta li {
+   list-style-type: disc;
+}
+
+.duvidas .duvidas-conteudo .perguntas-respostas .item .resposta a {
+   margin: 10px 5px 0 5px;
+   padding: 8px;
+   border-radius: 5px;
+   background-color: var(--medium-blue);
+   color: var(--white);
+   cursor: pointer;
+}
+
+.duvidas .duvidas-conteudo .perguntas-respostas .item .resposta a:hover {
+   color: var(--dark-blue);
+   background-color: var(--white);
+   transition: 0.5s;
+}
+
+.duvidas .duvidas-conteudo .perguntas-respostas.ativo .item .pergunta {
+   font-weight: 600;
+}
+
+.duvidas .duvidas-conteudo .perguntas-respostas .item.ativo .resposta {
+   display: block;
+}
+
+.duvidas .duvidas-conteudo .perguntas-respostas .item.ativo {
+   background-image: url(../images/8-duvidas/seta-aberta.png);
+}
+
+.rodape {
+   width: 100%;
+   padding-top: 30px;
+   background-color: var(--dark-blue);
+   text-align: center;
+   color: var(--white);
+}
+
+.rodape h3 {
+   font-weight: 300;
+   font-size: 18px;
+}
+
+.rodape a {
+   color: var(--white);
+   font-size: 22px;
+   transition: 0.3s;
+}
+
+.rodape .contato {
+   padding-bottom: 30px;
+}
+
+.rodape .contato span {
+   font-size: 15px;
+}
+
+.rodape .contato .contato-icones {
+   margin: 15px;
+}
+
+.rodape .contato .contato-icones a:hover {
+   color: var(--medium-blue);
+}
+
+.rodape .pagamento {
+   font-size: 12px;
+   color: var(--white);
+   padding-bottom: 90px;
+}
+
+.rodape .pagamento div {
+   margin-bottom: 10px;
+}
+
+.rodape .pagamento .pagamento-icones {
+   margin: 15px;
+}
+
+.rodape .pagamento .pagamento-icones i {
+   font-size: 20px;
+   margin: 5px;
+}
+
+.rodape .agendar {
+   padding: 18px 0;
+   border-top: solid 1px var(--white);
+   background-color: var(--dark-blue);
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+}
+
+.rodape .agendar .agendar-whatsapp {
+   padding: 10px;
+   border-radius: 5px;
+   background-color: var(--medium-blue);
+   color: var(--white);
+   font-size: 14px;
+   cursor: pointer;
+}
+
+.rodape .agendar .agendar-whatsapp:hover {
+   background-color: var(--white);
+   color: var(--dark-blue);
+   font-size: 16px;
+   transition: 0.5s;
+}

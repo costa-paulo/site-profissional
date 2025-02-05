@@ -1,0 +1,421 @@
+@media (max-width: 1024px) {
+    body h2 {
+        font-size: 25px;
+    }
+
+    .apresentacao .apresentacao-info h1 {
+        font-size: 40px;
+    }
+
+    .apresentacao .apresentacao-info h2 {
+        font-size: 25px;
+    }
+
+    .apresentacao .apresentacao-info p {
+        font-size: 15px;
+    }
+
+    .apresentacao .apresentacao-imagem img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 960px) {
+    .header .header-container a {
+        margin: 10px 0;
+    }
+
+    .header nav {
+        padding: 0;
+    }
+
+    .apresentacao {
+        background-image: url(../images/2-apresentacao/apresentacao-fundo-mobile1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+    }
+
+    .apresentacao .apresentacao-info {
+        max-width: 520px;
+        padding: 0 40px;
+    }
+
+    .apresentacao .apresentacao-imagem img {
+        width: 90%;
+    }
+
+    .tratamentos .tratamentos-container .tratamento {
+        height: 400px;
+        padding: 20px;
+        margin: 30px 10px;
+    }
+
+    .tratamentos .tratamentos-container .tratamento h3 {
+        font-size: 18px;
+    }
+
+    .tratamentos .tratamentos-container .tratamento p {
+        font-size: 12px;
+    }
+
+    .tratamentos .tratamentos-container .tratamento:last-child li {
+        font-size: 12px;
+    }
+
+    .exterior {
+        margin: 0 15px;
+        padding: 2px;
+    }
+
+    .exterior .exterior-conteudo {
+        padding: 30px 30px 10px;
+    }
+
+    .exterior .exterior-conteudo .exterior-container {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .exterior .exterior-conteudo .exterior-container .exterior-texto {
+        margin: 30px 0 5px;
+    }
+
+    .exterior .exterior-conteudo .exterior-container .exterior-texto p {
+        font-size: 14px;
+    }
+
+    .tcc p {
+        font-size: 14px;
+    }
+
+    .tcc .tcc-caracteristica .tcc-texto {
+        padding: 30px;
+        max-width: 320px;
+    }
+
+    .tcc .tcc-caracteristica .tcc-texto p {
+        font-size: 12px;
+    }
+
+    .tcc .tcc-caracteristica .tcc-texto h3 {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .online .online-conteudo ul {
+        gap: 20px;
+    }
+
+    .online .online-conteudo li {
+        font-size: 14px;
+    }
+
+    .psicologo .psicologo-conteudo .psicologo-texto {
+        max-width: 450px;
+        gap: 10px;
+    }
+
+    .psicologo .psicologo-conteudo .psicologo-texto p {
+        font-size: 14px;
+    }
+
+    .online {
+        background-image: url(../images/6-online/online-fundo-mobile.jpg);
+    }
+
+    .duvidas {
+        background-color: var(--neutral-white);
+    }
+}
+
+@media (max-width: 760px) {
+    body h2 {
+        font-size: 20px;
+    }
+
+    .apresentacao .apresentacao-info {
+        padding: 0 0 0 20px;
+    }
+
+    .apresentacao .apresentacao-info h1 {
+        min-width: 275px;
+        font-size: 35px;
+    }
+
+    .apresentacao .apresentacao-info h2 {
+        font-size: 20px;
+    }
+
+    .apresentacao .apresentacao-info p {
+        font-size: 12px;
+    }
+
+    .apresentacao .apresentacao-imagem img {
+        min-width: 180px;
+    }
+
+    .tratamentos {
+        padding-top: 20px;
+    }
+
+    .tratamentos .tratamentos-container {
+        margin-top: 30px;
+    }
+
+    .tratamentos .tratamentos-container .tratamento {
+        max-width: 300px;
+        height: 330px;
+        padding: 20px;
+        margin: 30px 10px;
+    }
+
+    .tratamentos .tratamentos-container .tratamento:last-child {
+        max-width: 350px;
+    }
+
+    .tratamentos .tratamentos-container .tratamento .tratamento-conteudo {
+        transform: translateY(-20%);
+    }
+
+    .tratamentos .tratamentos-container .tratamento h3 {
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+
+    .tratamentos .tratamentos-container .tratamento p {
+        font-size: 11px;
+    }
+
+    .tratamentos .tratamentos-container .tratamento .tratamento-conteudo img {
+        width: 45%;
+    }
+
+    .exterior {
+        margin: 0 10px;
+    }
+
+    .exterior .exterior-conteudo {
+        padding: 20px 20px 10px
+    }
+
+    .exterior .exterior-conteudo .exterior-container .exterior-texto {
+        margin: 20px 0 15px;
+    }
+
+    .exterior .exterior-conteudo .exterior-container .exterior-texto p {
+        font-size: 12px;
+    }
+
+    .exterior .exterior-conteudo .exterior-container img {
+        width: 150px;
+    }
+
+    .tcc {
+        margin: 20px 0;
+    }
+
+    .tcc p {
+        font-size: 12px;
+    }
+
+    .tcc .tcc-apresentacao {
+        padding: 20px 15px;
+    }
+
+    .tcc .tcc-apresentacao img {
+        margin: 20px 0 10px;
+    }
+
+    .tcc .tcc-caracteristica {
+        margin: 15px 15px;
+    }
+
+    .tcc .tcc-caracteristica .tcc-texto {
+        padding: 25px;
+        max-width: 300px;
+    }
+
+    .tcc .tcc-caracteristica .tcc-texto p {
+        font-size: 12px;
+    }
+
+    .tcc .tcc-caracteristica .tcc-texto h3 {
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+
+    .online {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .online .online-conteudo {
+        display: none;
+    }
+
+    .online .online-conteudo img {
+        display: none;
+    }
+
+    .online .online-blocks{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 440px;
+        margin-top: 10px;
+    }
+
+    .online .online-blocks .online-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: var(--intense-blue);
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        border-left: 10px solid var(--light-blue);;
+    }
+
+    .online .online-blocks .online-block:nth-child(2),
+    .online .online-block.online-block:nth-child(3){
+        background-color: var(--dark-blue);
+    }
+
+    .online .online-blocks .online-block p{
+        color: var(--neutral-white);
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .online .online-blocks .online-block i{
+        font-size: 80px;
+        color: var(--neutral-white);
+    }
+
+    .psicologo {
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .psicologo .psicologo-conteudo {
+        flex-direction: column-reverse;
+        margin: 20px 10px;
+        gap: 0;
+    }
+
+    .psicologo .psicologo-conteudo .psicologo-texto {
+        padding: 15px;
+    }
+
+    .psicologo .psicologo-conteudo .psicologo-texto p {
+        font-size: 12px;
+    }
+
+    .psicologo .psicologo-conteudo .psicologo-imagem {
+        width: 40%;
+    }
+
+    .psicologo .psicologo-conteudo .psicologo-imagem img {
+        min-width: 155px;
+        border: 10px solid var(--intense-blue);
+    }
+
+    .duvidas {
+        padding: 0 20px 30px;
+    }
+
+    .duvidas .duvidas-conteudo {
+        padding: 20px;
+        width: auto;
+    }
+
+    .duvidas .duvidas-conteudo .perguntas-respostas {
+        margin-top: 10px;
+    }
+
+    .duvidas .duvidas-conteudo .perguntas-respostas .item .pergunta {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .duvidas .duvidas-conteudo .perguntas-respostas .item .resposta {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    .rodape {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 475px) {
+    .apresentacao {
+        flex-direction: column;
+        background-size: auto;
+        background-position: center;
+    }
+
+    .apresentacao .apresentacao-info {
+        position: absolute;
+        top: 120px;
+    }
+
+    .apresentacao .apresentacao-info h1 {
+        font-size: 30px;
+    }
+
+    .apresentacao .apresentacao-info h2 {
+        max-width: 75%;
+    }
+
+    .apresentacao .apresentacao-info p {
+        margin-top: 25px;
+        max-width: 45%;
+    }
+
+    .apresentacao .apresentacao-imagem {
+        padding: 0 10px 0 0;
+        text-align: right;
+        position: absolute;
+        bottom: 20px;
+    }
+
+    .apresentacao .apresentacao-imagem img {
+        width: 40%;
+    }
+
+    .tcc .tcc-caracteristica:nth-child(odd) {
+        box-shadow: -5px 5px 0px 1px var(--intense-blue);
+        border-radius: 50px;
+    }
+
+    .tcc .tcc-caracteristica:nth-child(even) {
+        box-shadow: 5px 5px 0px 1px var(--dark-blue);
+        border-radius: 50px;
+    }
+
+    .tcc .tcc-caracteristica .tcc-imagem img {
+        display: none;
+    }
+
+    .online .online-blocks .online-block{
+        width: 160px;
+        border: none;
+    }
+
+    .online .online-blocks .online-block p{
+        font-size: 11px;
+    }
+
+    .online .online-blocks .online-block i{
+        font-size: 50px;
+    }
+}
