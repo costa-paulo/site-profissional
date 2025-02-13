@@ -417,12 +417,12 @@
         font-size: 50px;
     }
 
-    .duvidas .duvidas-conteudo .perguntas-respostas .item:nth-child(6) .resposta {
+    .duvidas .duvidas-conteudo .perguntas-respostas .item:nth-child(6) .resposta .link-valores{
         display: flex;
         flex-direction: column;
     }
 
-    .duvidas .duvidas-conteudo .perguntas-respostas .item:nth-child(6) .resposta a {
+    .duvidas .duvidas-conteudo .perguntas-respostas .item:nth-child(6) .resposta .link-valores a {
         margin: 5px 0;
     }
 }
