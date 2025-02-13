@@ -14,15 +14,15 @@
     .apresentacao .apresentacao-info p {
         font-size: 15px;
     }
-
-    .apresentacao .apresentacao-imagem img {
-        width: 80%;
-    }
 }
 
 @media (max-width: 960px) {
-    .header .header-container a {
+    .header .header-container .logo {
         margin: 10px 0;
+    }
+
+    .header .header-container .logo img {
+        width: 85%;
     }
 
     .header nav {
@@ -33,16 +33,12 @@
         background-image: url(../images/2-apresentacao/apresentacao-fundo-mobile1.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 80vh;
+        height: 70vh;
     }
 
     .apresentacao .apresentacao-info {
         max-width: 520px;
         padding: 0 40px;
-    }
-
-    .apresentacao .apresentacao-imagem img {
-        width: 90%;
     }
 
     .tratamentos .tratamentos-container .tratamento {
@@ -152,7 +148,7 @@
     }
 
     .apresentacao .apresentacao-imagem img {
-        min-width: 180px;
+        min-width: 200px;
     }
 
     .tratamentos {
@@ -260,7 +256,7 @@
         display: none;
     }
 
-    .online .online-blocks{
+    .online .online-blocks {
         display: block;
         display: flex;
         justify-content: center;
@@ -270,7 +266,7 @@
         margin-top: 10px;
     }
 
-    .online .online-blocks .online-block{
+    .online .online-blocks .online-block {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -281,21 +277,22 @@
         padding: 10px;
         margin: 10px;
         border-radius: 10px;
-        border-left: 10px solid var(--light-blue);;
+        border-left: 10px solid var(--light-blue);
+        ;
     }
 
     .online .online-blocks .online-block:nth-child(2),
-    .online .online-block.online-block:nth-child(3){
+    .online .online-block.online-block:nth-child(3) {
         background-color: var(--dark-blue);
     }
 
-    .online .online-blocks .online-block p{
+    .online .online-blocks .online-block p {
         color: var(--neutral-white);
         font-size: 14px;
         font-weight: 400;
     }
 
-    .online .online-blocks .online-block i{
+    .online .online-blocks .online-block i {
         font-size: 80px;
         color: var(--neutral-white);
     }
@@ -349,6 +346,7 @@
     .duvidas .duvidas-conteudo .perguntas-respostas .item .resposta {
         font-size: 12px;
         padding-bottom: 10px;
+        margin-bottom: 10px;
     }
 
     .rodape {
@@ -356,16 +354,17 @@
     }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 495px) {
     .apresentacao {
         flex-direction: column;
-        background-size: auto;
         background-position: center;
+        height: auto;
+        background-image: url(../images/2-apresentacao/apresentacao-fundo-mobile2.png);
     }
 
     .apresentacao .apresentacao-info {
         position: absolute;
-        top: 120px;
+        margin-bottom: 120px;
     }
 
     .apresentacao .apresentacao-info h1 {
@@ -384,12 +383,11 @@
     .apresentacao .apresentacao-imagem {
         padding: 0 10px 0 0;
         text-align: right;
-        position: absolute;
-        bottom: 20px;
     }
 
     .apresentacao .apresentacao-imagem img {
         width: 40%;
+        margin-top: 180px;
     }
 
     .tcc .tcc-caracteristica:nth-child(odd) {
@@ -406,16 +404,25 @@
         display: none;
     }
 
-    .online .online-blocks .online-block{
+    .online .online-blocks .online-block {
         width: 160px;
         border: none;
     }
 
-    .online .online-blocks .online-block p{
+    .online .online-blocks .online-block p {
         font-size: 11px;
     }
 
-    .online .online-blocks .online-block i{
+    .online .online-blocks .online-block i {
         font-size: 50px;
+    }
+
+    .duvidas .duvidas-conteudo .perguntas-respostas .item:nth-child(6) .resposta {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .duvidas .duvidas-conteudo .perguntas-respostas .item:nth-child(6) .resposta a {
+        margin: 5px 0;
     }
 }

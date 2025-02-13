@@ -376,12 +376,14 @@ body h2 {
 }
 
 .duvidas .duvidas-conteudo .perguntas-respostas .item .resposta a {
-   margin: 10px 5px 0 5px;
+   max-width: 180px;
+   margin: 10px 5px;
    padding: 8px;
    border-radius: 5px;
    background-color: var(--medium-blue);
    color: var(--white);
    cursor: pointer;
+   text-align: center;
 }
 
 .duvidas .duvidas-conteudo .perguntas-respostas .item .resposta a:hover {
